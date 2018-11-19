@@ -1,0 +1,45 @@
+
+
+.container {
+    align-items: center;
+    background-color:#3d5afe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 97vh;
+}
+
+.export-btn {
+    background-color: #00c853;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5vh;
+    padding: 20px;
+    margin: 0 auto;;
+    text-align: center;
+    width: 25vh;
+}
+
+h1 {
+    font-weight: bolder;
+    color: white;
+}
+
+#pdf-container {
+    flex-grow: 2;
+    width: 70%;
+}
+
+.pdf {
+    background-color: white;
+}
+
+.pdf-fields {
+    padding: 10px;
+    font-size: 2vh;
+}
+
+.footer {
+    margin: 10px;
+}
